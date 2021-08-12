@@ -6,6 +6,9 @@ var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
   return true;
 }</code></pre>
+
+
+<div id="included"></div>
 <script>
 elmnt = document.getElementById("included");
 xhttp = new XMLHttpRequest();
@@ -18,4 +21,3 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET",'include.html', true);
 xhttp.send();
 </script>
-<div id="included"></div>
