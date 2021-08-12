@@ -1,6 +1,6 @@
 <div class="included" src="include.html"></div>
 
-<h1>test 4 test</h1>
+<h1>test 5 test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
 // Javascript code with syntax highlighting.
@@ -27,6 +27,6 @@ async function httpstuff(elmnt){
 elmnts = document.getElementsByClassName("included");
 for (index = 0; index < elmnts.length; index++) {
      elmnt= elmnts[index];
-     await httpstuff(elmnt);
+     httpstuff(elmnt);
 }
 </script>
