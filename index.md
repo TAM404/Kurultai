@@ -1,6 +1,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <div class="included" src="styles.html"></div>
-<h1>test 12 test</h1>
+<h1>test 13 test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
 // Javascript code with syntax highlighting.
@@ -15,7 +15,7 @@ async function httpstuff(elmnt){
        xhttp = new XMLHttpRequest();
      xhttp.onreadystatechange = function() {
         if (this.readyState == 4) {
-            if (this.status == 200) {$(elmnt).html(this.responseText);}
+            if (this.status == 200) {$(elmnt).load(this.responseText);}
             if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
         }
     }
