@@ -1,3 +1,5 @@
+<div class="included" src="styles.html"></div>
+
 <h1>test test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
