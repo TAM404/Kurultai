@@ -1,6 +1,6 @@
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <div class="included" src="styles.html"></div>
-<h1>test 15 test</h1>
+<h1>test 16 test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
 // Javascript code with syntax highlighting.
