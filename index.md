@@ -8,7 +8,7 @@ var fun = function lang(l) {
 }</code></pre>
 
 
-<div id="included"></div>
+<div class="included" src="included.html"></div>
 <script>
 elmnts = document.getElementsByClassName("included");
 for (index = 0; index < elmnts.length; index++) {
