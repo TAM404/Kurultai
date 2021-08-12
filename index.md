@@ -15,9 +15,5 @@ elmnts = document.getElementsByClassName("included");
 for (index = 0; index < elmnts.length; index++) {
      elmnt= elmnts[index];
      $(elmnt).load(elmnt.getAttribute("src"));
-}
-var DOMContentLoaded_event = document.createEvent("Event")
-DOMContentLoaded_event.initEvent("DOMContentLoaded", true, true)
-window.document.dispatchEvent(DOMContentLoaded_event)
-                                      
+}                                   
 </script>
