@@ -1,6 +1,6 @@
 <div class="included" src="styles.html"></div>
 
-<h1>test test</h1>
+<h1>test 2 test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
 // Javascript code with syntax highlighting.
