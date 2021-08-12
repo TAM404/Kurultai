@@ -1,4 +1,4 @@
-<div class="included" src="styles.html"></div>
+<div class="included" src="include.html"></div>
 
 <h1>test 2 test</h1>
 <p>test text</p>
@@ -10,7 +10,7 @@ var fun = function lang(l) {
 }</code></pre>
 
 
-<div class="included" src="include.html"></div>
+<div class="included" src="styles.html"></div>
 <script>
 elmnts = document.getElementsByClassName("included");
 for (index = 0; index < elmnts.length; index++) {
