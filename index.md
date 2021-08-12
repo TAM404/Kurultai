@@ -1,6 +1,3 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/styles/devibeans.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-<div id="included"></div>
 <h1>test test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
@@ -21,5 +18,4 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET",'include.html', true);
 xhttp.send();
 </script>
-
-<script>hljs.highlightAll();</script>
+<div id="included"></div>
