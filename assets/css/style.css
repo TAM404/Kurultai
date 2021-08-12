@@ -38,3 +38,8 @@ table{
     max-width: 100%;
     background-color: transparent;
 }
+th tr{
+    padding: 8px;
+    line-height: 1.428571429;
+    text-align: left;
+}
