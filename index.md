@@ -4,7 +4,7 @@
 
 <h1>test test</h1>
 <p>test text</p>
-<pre><code>
+<pre class="highlight"><code>
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
   dateformat.i18n = require('./lang/' + l)
