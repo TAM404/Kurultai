@@ -1,6 +1,6 @@
-<div class="included" src="include.html"></div>
+<div class="included" src="styles.html"></div>
 
-<h1>test 5 test</h1>
+<h1>test 6 test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
 // Javascript code with syntax highlighting.
@@ -9,8 +9,6 @@ var fun = function lang(l) {
   return true;
 }</code></pre>
 
-
-<div class="included" src="styles.html"></div>
 <div class="included" src="include.html"></div>
 <script>
 async function httpstuff(elmnt){
