@@ -11,6 +11,7 @@ var fun = function lang(l) {
 
 
 <div class="included" src="styles.html"></div>
+<div class="included" src="include.html"></div>
 <script>
 elmnts = document.getElementsByClassName("included");
 for (index = 0; index < elmnts.length; index++) {
