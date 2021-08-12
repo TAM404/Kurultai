@@ -1,6 +1,6 @@
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-<div class="included" src="styles.html"><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script></div>
-<h1>test 10 test</h1>
+<div class="included" src="styles.html"></div>
+<h1>test 12 test</h1>
 <p>test text</p>
 <pre class="hljs highlight language-js"><code>
 // Javascript code with syntax highlighting.
@@ -27,4 +27,8 @@ for (index = 0; index < elmnts.length; index++) {
      elmnt= elmnts[index];
      httpstuff(elmnt);
 }
+var DOMContentLoaded_event = document.createEvent("Event")
+DOMContentLoaded_event.initEvent("DOMContentLoaded", true, true)
+window.document.dispatchEvent(DOMContentLoaded_event)
+                                      
 </script>
