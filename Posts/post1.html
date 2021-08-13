@@ -1,6 +1,703 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
 <div class="included" src="/Kurultai/styles.html"></div>
+<div id="navbar">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../..">
+                <img class="no-zoom" width="100px" src="/images/ctf101.png" title="CTF 101">
+            </a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                
+                    
+                
+                
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Forensics <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li>
+    <a href="../../forensics/overview/">Overview</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">File Formats</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-are-file-formats/">What are File Formats</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Metadata</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-is-metadata/">What is Metadata</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Wireshark</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-is-wireshark/">What is Wireshark</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Stegonagraphy</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-is-stegonagraphy/">What is Stegonagraphy</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Disk Imaging</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-is-disk-imaging/">What is Disk Imaging</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Memory Forensics</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-is-memory-forensics/">What is Memory Forensics</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Hex Editors</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../forensics/what-is-a-hex-editor/">What is a Hex Editor</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Cryptography <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li>
+    <a href="../../cryptography/overview/">Overview</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">XOR</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../cryptography/what-is-xor/">What is XOR</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Substitution Cipher</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../cryptography/what-is-a-substitution-cipher/">What is a Substitution Cipher</a>
+</li>
+
+        
+            
+<li>
+    <a href="../../cryptography/what-is-caesar-cipher-rot-13/">Caesar Cipher/ROT 13</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Vigenere Cipher</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../cryptography/what-is-a-vigenere-cipher/">What is a Vigenere Cipher</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Hashing Functions</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../cryptography/what-are-hashing-functions/">What are Hashing Functions</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Modes of Operation</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../cryptography/what-are-block-ciphers/">What are Block Ciphers</a>
+</li>
+
+        
+            
+<li>
+    <a href="../../cryptography/what-are-stream-ciphers/">What are Stream Ciphers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">RSA</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../cryptography/what-is-rsa/">What is RSA</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Web Exploitation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li>
+    <a href="../../web-exploitation/overview/">Overview</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">SQL Injection</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/sql-injection/what-is-sql-injection/">What is SQL Injection</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Command Injection</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/command-injection/what-is-command-injection/">What is Command Injection</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Directory Traversal</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/directory-traversal/what-is-directory-traversal/">What is Directory Traversal</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Cross Site Request Forgery</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/cross-site-request-forgery/what-is-cross-site-request-forgery/">What is Cross Site Request Forgery</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Cross Site Scripting (XSS)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/cross-site-scripting/what-is-cross-site-scripting/">What is Cross Site Scripting</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Server Side Request Forgery</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/server-side-request-forgery/what-is-server-side-request-forgery/">What is Server Side Request Forgery</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">PHP</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../web-exploitation/php/what-is-php/">What is PHP?</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reverse Engineering <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li>
+    <a href="../../reverse-engineering/overview/">Overview</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Assembly/Machine Code</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../reverse-engineering/what-is-assembly-machine-code/">What is Assembly/Machine Code</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">The C Programming Language</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../reverse-engineering/what-is-c/">What is C</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Disassemblers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../reverse-engineering/what-are-disassemblers/">What are Disassemblers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Debuggers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../reverse-engineering/what-is-gdb/">What is GDB</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Decompilers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../../reverse-engineering/what-are-decompilers/">What are Decompilers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Binary Exploitation <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li>
+    <a href="../overview/">Overview</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Registers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-are-registers/">What are Registers</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">The Stack</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-is-the-stack/">What is the Stack</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Calling Conventions</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-are-calling-conventions/">What are Calling Conventions</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Global Offset Table (GOT)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li class="active">
+    <a href="./">What is the GOT</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Buffers</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-are-buffers/">What are Buffers</a>
+</li>
+
+        
+            
+<li>
+    <a href="../buffer-overflow/">Buffer Overflow</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Return Oriented Programming (ROP)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../return-oriented-programming/">What is ROP</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Binary Security</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-is-binary-security/">What is Binary Security</a>
+</li>
+
+        
+            
+<li>
+    <a href="../no-execute/">No eXecute (NX)</a>
+</li>
+
+        
+            
+<li>
+    <a href="../address-space-layout-randomization/">Address Space Layout Randomization (ASLR)</a>
+</li>
+
+        
+            
+<li>
+    <a href="../stack-canaries/">Stack Canaries</a>
+</li>
+
+        
+            
+<li>
+    <a href="../relocation-read-only/">Relocation Read-Only (RELRO)</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">The Heap</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-is-the-heap/">What is the Heap</a>
+</li>
+
+        
+            
+<li>
+    <a href="../heap-exploitation/">Heap Exploitation</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">Format String Vulnerability</a>
+    <ul class="dropdown-menu">
+        
+            
+<li>
+    <a href="../what-is-a-format-string-vulnerability/">What is a Format String Vulnerability</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i>
+                        </a>
+                    </li>
+<!--                     <li >
+                        <a rel="next" href="../what-are-calling-conventions/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../what-are-buffers/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li> -->
+            </ul>
+        </div>
+    </div>
+</div>
 
 <div id="sidebar">
 </div>
