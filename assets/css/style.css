@@ -52,3 +52,12 @@ th,tr,td{
     float: left;
     width: 25%;
 }
+#navbar{
+    background-color: #343838;
+    border-bottom: 8px #EBF2F2 solid;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    
+}
