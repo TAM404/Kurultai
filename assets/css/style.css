@@ -48,3 +48,7 @@ th,tr,td{
     vertical-align: top;
     border-top: 1px solid #ddd;
 }
+#sidebar{
+    float: left;
+    width: 25%;
+}
