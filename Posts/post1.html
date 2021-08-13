@@ -110,7 +110,7 @@
 <h2 id="what-does-this-have-to-do-with-ctf">What does this have to do with CTF?<a class="headerlink" href="#what-does-this-have-to-do-with-ctf" title="Permanent link">¶</a></h2>
 <p>XOR is a cheap way to encrypt data with a password. Any data can be encrypted using XOR as shown in this Python example:</p>
 <div class="codehilite">
-     <pre class="hljs highlight language-js">
+     <pre class="hljs highlight language-js"><code>
 >>> data = 'CAPTURETHEFLAG'
 >>> key = 'A'
 >>> encrypted = ''.join([chr(ord(x) ^ ord(key)) for x in data])
@@ -119,7 +119,7 @@
 >>> decrypted = ''.join([chr(ord(x) ^ ord(key)) for x in encrypted])
 >>> decrypted
 'CAPTURETHEFLAG'
-     </pre></div>
+    </code></pre></div>
 
 
 <p>This can be extended using a multibyte key by iterating in parallel with the data.</p>
