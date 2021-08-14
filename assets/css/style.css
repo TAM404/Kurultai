@@ -83,3 +83,8 @@ padding: 10px;
     box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
     background-clip: padding-box;
 }
+
+#sidebar{
+float: left;
+    width: 25%;
+}
