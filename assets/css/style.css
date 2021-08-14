@@ -49,7 +49,7 @@ th,tr,td{
     border-top: 1px solid #ddd;
 }
 #navbar {
-    background-color: #343838;
+    background-color: #222722;
     border-bottom: 8px #EBF2F2 solid;
     position: fixed;
     right: 0;
@@ -75,7 +75,7 @@ padding: 10px;
     margin: 2px 0 0;
     font-size: 15px;
     list-style: none;
-    background-color: #1f1f1f;
+    background-color: #151715;
     border: 1px solid #ccc;
     border: 1px solid rgba(0,0,0,0.15);
     border-radius: 0;
@@ -92,4 +92,7 @@ float: left;
     color: white;
     font-size: 20;
     text-decoration: none;
+}
+.nav li:hover {
+    background: #191d19;
 }
