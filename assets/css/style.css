@@ -131,7 +131,7 @@ div#sidebar:hover {
     border-left: 10px solid #46b746;
     background-color: black;
 }
-.lessons {
+.lesson {
     padding: 7;
     border-left: 5px solid #333a33;
     transition: border-left 0.3s;
