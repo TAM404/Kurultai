@@ -60,10 +60,11 @@ th,tr,td{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
 }
 .nav li{
-float: left;
-position: relative;
-padding: 7px;
-list-style-type: none;
+    float: left;
+    position: relative;
+    padding: 7px;
+    list-style-type: none;
+    transition: background 0.3s;
 }
 .dropdown-menu li{float:none}
 .nav li:hover .dropdown-menu{display:block;}
@@ -87,10 +88,37 @@ list-style-type: none;
     background-clip: padding-box;
 }
 
-#sidebar{
-float: left;
+#sidebar-holder{
+    float: left;
     width: 25%;
+    padding: 1px;
 }
+div#sidebars {
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background: #151915;
+    color: white;
+    border-right: 5px #3b423b solid;
+    position: fixed;
+    width: 22%;
+    padding: 10;
+}
+div#sidebars:hover {
+    border-right: 15px #46b746 solid;
+    background: #0a0c0a;
+}
+#sidebars {
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    background: #151915;
+    color: white;
+    border-right: 5px #3b423b solid;
+    position: fixed;
+    width: 22%;
+    padding: 10;
+    transition: border-right 0.3s,background 0.3s;
+}
+
 #navbar a {
     color: white;
     font-size:16;
