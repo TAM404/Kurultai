@@ -50,7 +50,7 @@ th,tr,td{
 }
 #navbar {
     background-color: #222722;
-    border-bottom: 8px #EBF2F2 solid;
+    border-bottom: 8px #151915 solid;
     position: fixed;
     right: 0;
     left: 0;
@@ -60,7 +60,7 @@ th,tr,td{
 .nav li{
 float: left;
 position: relative;
-padding: 10px;
+padding: 7px;
 }
 .dropdown-menu li{float:none}
 .nav li:hover .dropdown-menu{display:block;}
@@ -90,7 +90,7 @@ float: left;
 }
 #navbar a {
     color: white;
-    font-size: 20;
+    font-size:16;
     text-decoration: none;
 }
 .nav li:hover {
