@@ -127,7 +127,7 @@ div#sidebar:hover {
 .nav li:hover {
     background: #191d19;
 }
-.lessons:hover {
+.lesson:hover {
     border-left: 10px solid #46b746;
     background-color: black;
 }
