@@ -137,3 +137,19 @@ div#sidebar:hover {
     transition: border-left 0.3s;
     margin-top: 5px;
 }
+.lesson li:hover {
+    background-color: #060606;
+    border-bottom: 2px solid #428b21;
+}
+
+.lesson li {
+    list-style-type: none;
+    padding-left: 30px;
+    transition: background-color 0.3s,border-bottom 0.3s;
+    border-bottom: 1px solid #333a33;
+}
+.lesson p {
+    font-size: 19;
+    font-weight: 600;
+    margin: 5;
+}
