@@ -93,7 +93,7 @@ th,tr,td{
     width: 25%;
     padding: 1px;
 }
-div#sidebars {
+div#sidebar {
     height: 100%;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background: #151915;
@@ -103,11 +103,11 @@ div#sidebars {
     width: 22%;
     padding: 10;
 }
-div#sidebars:hover {
+div#sidebar:hover {
     border-right: 15px #46b746 solid;
     background: #0a0c0a;
 }
-#sidebars {
+#sidebar {
     height: 100%;
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background: #151915;
