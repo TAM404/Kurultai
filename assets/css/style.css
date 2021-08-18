@@ -62,6 +62,7 @@ th,tr,td{
 float: left;
 position: relative;
 padding: 7px;
+list-style-type: none;
 }
 .dropdown-menu li{float:none}
 .nav li:hover .dropdown-menu{display:block;}
