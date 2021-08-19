@@ -93,16 +93,6 @@ th,tr,td{
     width: 25%;
     padding: 1px;
 }
-div#sidebar {
-    height: 100%;
-    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
-    background: #151915;
-    color: white;
-    border-right: 5px #3b423b solid;
-    position: fixed;
-    width: 22%;
-    padding: 10;
-}
 div#sidebar:hover {
     border-right: 15px #46b746 solid;
     background: #0a0c0a;
@@ -114,8 +104,11 @@ div#sidebar:hover {
     color: white;
     border-right: 5px #3b423b solid;
     position: fixed;
-    width: 22%;
+    width: 18%;
+    left: 0;
     padding: 10;
+    top: 60;
+    font-size: 15px;
     transition: border-right 0.3s,background 0.3s;
 }
 
@@ -153,7 +146,7 @@ div#sidebar:hover {
     transition: background-color 0.3s,border-bottom 0.3s;
     border-bottom: 1px solid #333a33;
 }
-.lesson p {
+.lesson summary {
     font-size: 19;
     font-weight: 600;
     margin: 5;
