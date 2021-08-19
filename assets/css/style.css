@@ -137,6 +137,11 @@ div#sidebar:hover {
     transition: border-left 0.3s;
     margin-top: 5px;
 }
+.lesson[open] {
+    background-color: #060606;
+    border-bottom: 2px solid #428b21;
+}
+
 .lesson li:hover {
     background-color: #060606;
     border-bottom: 2px solid #428b21;
