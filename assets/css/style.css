@@ -138,8 +138,8 @@ div#sidebar:hover {
     margin-top: 5px;
 }
 .lesson[open] {
-    background-color: #060606;
-    border-bottom: 2px solid #428b21;
+        border-left: 10px solid #46b746;
+    background-color: black;
 }
 
 .lesson li:hover {
